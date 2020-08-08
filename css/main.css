@@ -52,7 +52,7 @@ header {
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	flex-flow: row wrap;
 }
@@ -68,6 +68,7 @@ header h1 span {
 header nav {
 	padding: 46px 0;
 }
+
 header nav ul {
 	margin: 0;
 	padding: 0;
@@ -75,7 +76,7 @@ header nav ul {
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 1.143px;
+	font-size: 1.143em;
 	padding: 0 10px;
 	display: inline;
 }
@@ -172,5 +173,5 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 14px;
+	font-size: 1.143em;
 }
