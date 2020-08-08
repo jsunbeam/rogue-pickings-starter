@@ -42,7 +42,7 @@ h4 {
 }
 
 p {
-	font-size: 1.143em;
+	font-size: 0.875em;
 	line-height: 21px;
     padding: 0 30px;
 }
@@ -76,7 +76,7 @@ header nav ul {
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 1.143em;
+	font-size: 0.875em;
 	padding: 0 10px;
 	display: inline;
 }
@@ -173,5 +173,5 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 1.143em;
+	font-size: 0.875em;
 }
