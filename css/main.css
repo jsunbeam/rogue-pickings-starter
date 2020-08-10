@@ -62,6 +62,7 @@ header h1 {
 	margin: 0;
 	padding: 38px 0;
 	border-bottom: 3px solid #77a466;
+	width: 100%;
 }
 header h1 span {
 	color: #77a466;
@@ -170,3 +171,68 @@ footer span {
 	color: #77a466;
 	font-size: 0.875rem;
 }
+
+
+
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+
+	.bottom-section {
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-flow: row;
+
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+		height: auto;
+		border-top: 1px solid #eee;
+	}
+
+	.section-one h4 {
+		padding: 10px 0;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+
+	.section-two h4,
+	.section-three h4 {
+		padding: 10px 30px;
+	}
+}
+ 
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+
+	header {
+		justify-content: space-between;
+	}
+
+	header h1 {
+		width: 40%;
+		text-align: left;
+		border-bottom: none;
+		padding: 0;
+	}
+
+	header nav {
+		width: 40%;
+	}
+
+
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+
+	}
+
+}
+
