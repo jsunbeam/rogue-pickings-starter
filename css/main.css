@@ -18,6 +18,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 90%;
 }
 
 h1,
@@ -95,7 +96,7 @@ nav {
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	margin: 0px 15px;
+	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -214,6 +215,7 @@ footer span {
 
 	header {
 		justify-content: space-between;
+		width: 100%;
 	}
 
 	header h1 {
@@ -224,7 +226,7 @@ footer span {
 	}
 
 	header nav {
-		width: 40%;
+		width: 50%;
 	}
 
 
